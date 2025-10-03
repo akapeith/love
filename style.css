@@ -8,7 +8,7 @@ body {
 
 /* ================= Hero Section ================= */
 .hero {
-  background: linear-gradient(135deg, #FFC0CB, #FFDDEE);
+  background: black;
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -51,19 +51,20 @@ body {
 
 /* ================= Message Section ================= */
 .message {
-  background: #fff;
+  background: black;
   text-align: center;
   padding: 60px 20px;
 }
 
 .card {
   display: inline-block;
-  background: #FFDDEE;
+  background: white;
   padding: 30px;
   border-radius: 25px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   max-width: 500px;
   transition: transform 0.3s;
+  color: black;
 }
 
 .card:hover {
@@ -72,7 +73,7 @@ body {
 
 /* ================= Love Notes Section ================= */
 .love-notes {
-  background: #FFF0F5;
+  background: black;
   text-align: center;
   padding: 60px 20px;
 }
@@ -80,7 +81,7 @@ body {
 .love-notes h2 {
   font-family: 'Pacifico', cursive;
   font-size: 2.5rem;
-  color: #FFC0CB;
+  color: blueviolet;
   margin-bottom: 30px;
 }
 
@@ -92,12 +93,13 @@ body {
 }
 
 .note {
-  background: #FFDDEE;
+  background:blueviolet;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   max-width: 200px;
   font-weight: 500;
+  color: white;
   transition: transform 0.3s;
 }
 
@@ -107,7 +109,7 @@ body {
 
 /* ================= Slider Section ================= */
 .slider-section {
-  background: #fff;
+  background: black;
   text-align: center;
   padding: 60px 20px;
 }
@@ -115,13 +117,14 @@ body {
 .slider-section h2 {
   font-family: 'Pacifico', cursive;
   font-size: 2.5rem;
-  color: #FFC0CB;
+  color: blueviolet;
   margin-bottom: 10px;
 }
 
 .slider-section p {
   font-size: 1.1rem;
   margin-bottom: 20px;
+  color: white;
 }
 
 .slider-container {
@@ -132,7 +135,7 @@ body {
 #loveSlider {
   width: 100%;
   margin: 20px 0;
-  accent-color: #FFC0CB;
+  accent-color: blueviolet;
   height: 10px;
   border-radius: 10px;
 }
@@ -140,14 +143,14 @@ body {
 .slider-value {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #FF69B4;
+  color: blueviolet;
 }
 
 /* Heart-style Fill Bar */
 .heart-fill {
   width: 100%;
   height: 30px;
-  background: #FFE4E1;
+  background: blueviolet;
   border-radius: 20px;
   overflow: hidden;
   margin-top: 10px;
@@ -156,7 +159,7 @@ body {
 #heartBar {
   width: 50%;
   height: 100%;
-  background: #FF69B4;
+  background: violet;
   border-radius: 20px 0 0 20px;
   transition: width 0.3s;
 }
@@ -165,7 +168,7 @@ body {
 .magic-compliment {
   text-align: center;
   padding: 60px 20px;
-  background: #FFDDEE;
+  background: black;
 }
 
 .magic-compliment h2 {
@@ -181,7 +184,7 @@ body {
 }
 
 #complimentBtn {
-  background: #FF69B4;
+  background: black;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -209,7 +212,7 @@ body {
 
 /* ================= Footer ================= */
 footer {
-  background: #FFC0CB;
+  background: black;
   color: white;
   text-align: center;
   padding: 20px;
@@ -233,61 +236,13 @@ footer {
 .gif-surprise-section {
   text-align: center;
   padding: 60px 20px;
-  background: #fff0f5;
+  background: black;
 }
 
 .gif-surprise-section h2 {
   font-family: 'Pacifico', cursive;
   font-size: 2.5rem;
-  color: #ff69b4;
+  color: blueviolet;
   margin-bottom: 15px;
 }
 
-.gif-surprise-section p {
-  font-size: 1.2rem;
-  color: #ff1493;
-  margin-bottom: 25px;
-}
-
-.gif-btn {
-  display: inline-block;
-  background: #ff69b4;
-  color: white;
-  text-decoration: none;
-  padding: 15px 35px;
-  border-radius: 25px;
-  font-size: 1.2rem;
-  transition: transform 0.2s, background 0.3s;
-}
-
-.gif-btn:hover {
-  transform: scale(1.1);
-  background: #ffc0cb;
-}
-.gif-page {
-  text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
-  min-height: 100vh;
-}
-
-.gif-page h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 3rem;
-  color: #ff1493;
-  margin-bottom: 20px;
-}
-
-.gif-page p {
-  font-size: 1.3rem;
-  color: #ff69b4;
-  margin-bottom: 40px;
-}
-
-.surprise-gif {
-  max-width: 90%;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);
-  margin-bottom: 30px;
-}
